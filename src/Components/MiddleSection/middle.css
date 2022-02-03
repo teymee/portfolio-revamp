@@ -1,0 +1,88 @@
+.middle {
+	background: linear-gradient(90deg, #181818 50%, #111111 50%);
+}
+
+.services, .exp {
+	width: 75%;
+	margin: auto auto;
+	padding-top: 6rem;
+	padding-bottom: 10rem;
+	display: flex;
+      justify-content: space-between;
+}
+
+.services .box{
+	background-color: #1e1e1e;
+	width: 30%;
+	margin-left: 30px;
+}
+
+.box-container {
+	width: 80%;
+	margin: auto auto;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.box-container h3 {
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.box-container p {
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.box-container h4 {
+	color: var(--themeTextColor);
+	margin-top: 35px;
+}
+.box2 {
+	background: var(--buttonBg);
+	background: linear-gradient(
+		100deg,
+		var(--buttonBg) 36%,
+		var(--buttonGradient) 100%
+	);
+}
+
+.box2 h4 {
+	color: ghostwhite;
+}
+
+.exp{
+      margin-top: -150px;
+      
+}
+
+.exp .section{
+      width: 35%;
+      text-align: center;
+}
+
+.exp-year h3{
+      
+      font-size: 30px;
+}
+.exp-year h1{
+      padding-top: 30px;
+      font-size: 70px !important;
+      color: var(--themeTextColor);
+}
+.exp .block{
+      background-color: #1E1E1E;
+      margin-left: 30px;
+      margin-bottom: 30px;
+      padding: 20px 30px;
+}
+
+.exp .block h2{
+      color: var(--themeTextColor);
+      font-size: 30px;
+}
+
+.exp .block h4{
+      color: grey;
+      font-size: 15px;
+}

@@ -1,0 +1,38 @@
+.contact {
+	width: 70%;
+	background-color: var(--divBgColor);
+      display: flex;
+	height: 300px;
+	margin: auto auto;
+	position: relative;
+	z-index: 1;
+      padding-left: 30px;
+   
+}
+.contact .container {
+	width: 80%;
+	margin: auto auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.contact-text {
+	width: 70%;
+}
+
+.contact button{
+      height: 45px;
+      width: 150px;
+}
+
+.contact-text h1{
+	color: ghostwhite;
+      font-size: 48px;
+      line-height: 50px;
+}
+
+.contact-text span {
+	color: grey;
+      margin-top: 20px;
+      font-size: 14px;
+}

@@ -1,0 +1,12 @@
+.banner {
+	width: 75%;
+	margin: auto auto;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.banner h1 {
+	color: var(--themeTextColor);
+}
+
+
